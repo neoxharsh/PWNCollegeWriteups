@@ -38,6 +38,7 @@ The binary that we will produce will have various additional piece of code that 
 
 For our challenge, we need to pass the raw bytes of the shellcode to the stdin of the challenge executable. We need to extract the **.text** segment (Where the main code is located) and store it into a file.
 
+
 ## Uselful links
  - [Syscall refrence](https://syscalls64.paolostivanin.com/)
  - [X86_64 Register Map](https://static.wikia.nocookie.net/cheatengine/images/2/2c/Table_of_x86_Registers_svg.svg.png/revision/latest?cb=20220323182451)
